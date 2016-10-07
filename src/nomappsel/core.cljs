@@ -1,9 +1,6 @@
 (ns nomappsel.core
   (:require-macros [reagent.ratom :refer [reaction]])
   (:require [reagent.core :as reagent]
-            [day8.re-frame.http-fx]
-            [nomappsel.subs]
-            [nomappsel.events]
             [nomappsel.views :as v]
             [re-frame.core :refer [dispatch-sync]]))
 
